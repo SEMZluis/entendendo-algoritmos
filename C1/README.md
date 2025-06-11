@@ -11,6 +11,8 @@
 - Para uma lista de *n* itens, a pesquisa binária precisa de log₂*n* etapas/operações.
 - A pesquisa binária tem um **tempo logarítmico** de execução.
 
+![pesquisabinaria](https://github.com/user-attachments/assets/d9621dfa-a598-48cd-9fb5-2f8c69b4bb2e)
+
 # Notação Big O
 - Diz quão rápido é uma algoritmo e o quão rapidamente ele cresce/escala.
 - Não fornece o tempo necessário para a execução do algoritmo em segundos, mas em **número de operações**. Sabendo quando tempo uma operação leva para ser realizada, é possível determinar o tempo necessário para a execução do algoritmo.
