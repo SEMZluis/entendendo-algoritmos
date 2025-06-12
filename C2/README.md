@@ -25,6 +25,8 @@
         - São boas para inserções e remoções de elementos da lista.
         - O tempo de execução para realizar uma inserção ou deleção na notação Big O é O(1).
 
+![arrayselista](https://github.com/user-attachments/assets/a933a9ca-cc23-4569-a39d-689c262a4376)
+
 # Ordenação por seleção
 - Na ordenação por seleção, você ordena uma lista de elementos selecionando por vez qual deve seguir o outro.
 - Em uma lista de números que precisa ser ordenada de maneira crescente, por exemplo, você precisa verificar o menor número que existe em uma lista e removê-lo para outra lista. Cada operação de leitura tem um tempo de execução linear de O(*n*). Desse modo, como você precisa verificar essa lista *n* vezes, então o tempo de execução para a ordenação será de O(*n*²).
