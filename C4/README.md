@@ -29,7 +29,10 @@
     - Isso gera cerca de log *n* níveis de chamadas recursivas (como acontece em uma pesquisa binária).
     - Em cada nível, o algoritmo percorre o *array* inteiro, reorganizando os elementos em torno dos pivôs, e isso leva tempo O(*n*).
     - log *n* níveis de chamadas, cada um com custo O(*n*) → Tempo total: O(*n* × log *n*).
-    
+
+![comparaqcsort](https://github.com/user-attachments/assets/c9fb66d7-22da-4d51-b7c8-23d6ac9f7ea4)
+
+
 # Notação Big O revisada
 - Quando escrevemos algo na notação Big O, estamos representando a seguinte expressão: *c * n*, em que *n* é o número de etapas necessárias para executar o algoritmo e *c* uma determinada quantidade de tempo que o algoritmo leva para ser executado.
 - Desse modo, quando os algoritmos possuem tempos de execução diferentes, como a pesquisa binária (*log n*) e a pesquisa simples (*n*), por exemplo, a constante *c* é normalmente ignorada. (Exemplo: tente comparar os dois algoritmos citados usando os mesmos valores de *c* e *n* para ambos).
