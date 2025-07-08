@@ -12,6 +12,8 @@
 - Uma tabela *hash* contém chaves e valores, também podendo ser chamada, então, de dicionário.
 - No geral, as tabelas *hash* são ótimas para modelar relações entre dois itens, filtrar por duplicatas e para *caching* de dados.
 
+![hashtable](https://github.com/user-attachments/assets/2332becb-948d-4577-bff8-3a4e80885344)
+
 # Colisões
 - Colisões acontecem em uma tabela *hash* quando duas chaves são indicadas para o mesmo espaço no *array*. Ou seja, elas não são iguais entre si, mas, por alguma lógica, elas deveriam ocupar o mesmo espaço no *array* ao qual a função *hash* vai se referir.
 - Uma solução para as colisões é colocar uma lista encadeada no espaço referido do *array*. Então, será possível alocar o valor das duas chaves naquele espaço. O problema disso é que uma pesquisa em uma lista encadeada pode ser muito lenta quando ela é muito grande.
